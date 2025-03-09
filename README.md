@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/sm-junior0/mqtt-data-weather-app.git
-   cd mqtt-data-weather-app
+   cd mqtt-weather-app
    ```
 
 2. **Install dependencies**:
@@ -37,18 +37,12 @@ Before you begin, ensure you have the following installed:
    npm install
    ```
 
-3. **Set up the public directory**:
+3. **Start the server**:
    ```bash
-   mkdir -p public
-   cp index.html public/
+   node server.js
    ```
 
-4. **Start the server**:
-   ```bash
-   npm start
-   ```
-
-5. **Access the application**:
+4. **Access the application**:
    Open your browser and navigate to `http://localhost:3000`.
 
 ---
